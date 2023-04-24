@@ -1,6 +1,6 @@
 # _printf()
 
-Prints text to terminal based on a given format string to standard output. Its a <stdio.h> printf lookalike function.
+Prints text to terminal based on a given format string to standard output. It's a <stdio.h> printf lookalike function.
 
 Syntax: _printf(\<format string\>, args...)
 
