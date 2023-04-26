@@ -28,7 +28,7 @@ int handle_print(const char *format, int *idx, va_list list, char buffer[],
 			return (f_types[i].format_func(list,
 				buffer, flags, width, precision, size));
 
-	if (f_types[i].myfomat == '\0')
+	if (f_types[i].myformat == '\0')
 	{
 		if (format[*idx] == '\0')
 			return (-1);
